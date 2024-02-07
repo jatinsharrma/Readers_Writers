@@ -17,10 +17,10 @@ Both files utilize the following elements:
 ## To run the code:
 
 >Make sure you have a C compiler installed.
->Clone this repository to your local machine.
->Open a terminal in the repository directory.
->Compile each file using your compiler (e.g., gcc writer_priority.c -o wp -pthread  and gcc read_priority.c -o wp -pthread ).
->Run each executable file (e.g., ./rp and ./wp).
+Clone this repository to your local machine.
+Open a terminal in the repository directory.
+Compile each file using your compiler (e.g., gcc writer_priority.c -o wp -pthread  and gcc read_priority.c -o wp -pthread ).
+Run each executable file (e.g., ./rp and ./wp).
 
 ## Observations:
 
