@@ -1,4 +1,4 @@
-## Reader Writer Problem
+# Reader Writer Problem
 
 This repository demonstrates the Reader-Writer problem with two scenarios:
 
@@ -12,21 +12,22 @@ Each scenario is implemented in a separate file:
 Both files utilize the following elements:
 **Semaphores**: To control access to the shared resource and ensure mutual exclusion.
 **Shared resource**: A file used as the shared resource that readers read and writers write to.
-**Threads__: To simulate concurrent readers and writers.
+**Threads**: To simulate concurrent readers and writers.
 
-#To run the code:
+## To run the code:
 
-Make sure you have a C compiler installed.
-Clone this repository to your local machine.
-Open a terminal in the repository directory.
-Compile each file using your compiler (e.g., gcc writer_priority.c -o wp -pthread  and gcc read_priority.c -o wp -pthread ).
-Run each executable file (e.g., ./rp and ./wp).
-Observations:
+>Make sure you have a C compiler installed.
+>Clone this repository to your local machine.
+>Open a terminal in the repository directory.
+>Compile each file using your compiler (e.g., gcc writer_priority.c -o wp -pthread  and gcc read_priority.c -o wp -pthread ).
+>Run each executable file (e.g., ./rp and ./wp).
+
+## Observations:
 
 Observe how the code behaves in each scenario, paying attention to the order in which readers and writers access the shared resource.
 Modify the number of readers and writers to see how it affects the behavior.
 
-#Additional Notes:
+## Additional Notes:
 This is a basic implementation of the Reader-Writer problem.
 There are more complex and efficient solutions available.
 This repository is intended for educational purposes only.
